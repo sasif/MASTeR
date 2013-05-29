@@ -1,0 +1,55 @@
+%-------------------------------------------+
+% MATLAB code for Motion-Adaptive Spatio-Temporal Regularization (MASTeR)
+% for Accelerated Dynamic MRI
+%-------------------------------------------+
+% 
+% Author: M. Salman Asif @ Georgia Tech
+% Email: sasif@gatech.edu
+% Web: http://users.ece.gatech.edu/~sasif/dynamicMRI
+% Created: October 2011 -- March 2012
+% Released: October 2012
+% 
+%-------------------------------------------+
+% Copyright (c) 2012.  M. Salman Asif 
+%-------------------------------------------+
+
+%% Reading original data
+%
+% k-space data and sensitivity maps are organized in data folder as 
+% 
+% DATA USED IN THE PAPER
+%
+% Short-axis (with prescan)
+% P501767_* or  P49664.7_  
+% (To simulate prescan behavior, use one of these two scans as a prescan,
+% which means use its sensitivity maps to reconstruct the other)
+%
+% wrap_003_*    : Two-chamber
+% (Without prescan; sensitivity maps were generated using a center portion 
+% of the original k-space)
+%
+% OTHER DATASET: 
+% 
+% with prescan
+% P48128.7_* or  P48640.7_* 
+% Sensitivity maps in sensitivitymaps folder are computed from P48128.7 
+% (use one of these as a prescan for the other)
+% 
+% without prescan
+% 555_*         : 
+% P5717127_*    :
+%
+% rawsensitivitymap1imagespace.cpx : maps computed from full k-space
+% rawsensitivitymap2imagespace.cpx : maps computed from half k-space
+
+%% Paper: 
+% 
+% "Motion-Adaptive Spatio-Temporal Regularization (MASTeR) for Accelerated Dynamic MRI"
+% by Salman Asif, Lei Hamilton, Marijn Brummer, and Justin Romberg
+% Accepted in Magnetic Resonance in Medicine, August 2012
+% Preprint available at http://users.ece.gatech.edu/~sasif/
+
+%% Acknowledgements:
+%
+% k-space and sensitivity maps data provided by L. Hamilton and M. Brummer
+% along with scripts to read those files. 
