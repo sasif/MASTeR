@@ -74,7 +74,7 @@
 % This software is being provided "as is", without any express or
 % implied warranty.  In particular, the authors do not make any
 % representation or warranty of any kind concerning the merchantability
-% of this software or its fitness for any particular purpose."
+% of this software or its fitness for any particular purpose.
 %
 %-------------------------------------------+
 
