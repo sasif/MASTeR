@@ -59,7 +59,7 @@
 
 %%
 %-------------------------------------------+
-% Copyright (2012): M. Salman Asif
+% Copyright (2013): M. Salman Asif
 %-------------------------------------------+
 %
 % Redistribution and use of this code, with or without modification, are permitted   
