@@ -62,14 +62,15 @@
 % Copyright (2012): M. Salman Asif
 %-------------------------------------------+
 %
-% MASTeR is distributed under the terms of the GNU General Public
-% License 2.0.
+% Redistribution and use of this code, with or without modification, are permitted   
+% provided that the following conditions are met:
 % 
-% Permission to use, copy, modify, and distribute this software for
-% any purpose without fee is hereby granted, provided that this entire
-% notice is included in all copies of any software which is or includes
-% a copy or modification of this software and in all copies of the
-% supporting documentation for such software.
+% The software is provided under the terms of this license strictly for academic,  
+% non-commercial, not-for-profit purposes. Redistributions of source code must retain   
+% the above copyright notice, this list of conditions (license) and the following   
+% disclaimer. The name of the author may not be used to endorse or promote products   
+% derived from this software without specific prior written permission. 
+%
 % This software is being provided "as is", without any express or
 % implied warranty.  In particular, the authors do not make any
 % representation or warranty of any kind concerning the merchantability
